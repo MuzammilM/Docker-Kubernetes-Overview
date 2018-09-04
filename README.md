@@ -1,6 +1,6 @@
 # docker-cheatsheet
 
-
+dockerDeploy.sh
 cd /home/asd/webApplicationn
 git pull origin Snapshot
 npm install
@@ -11,4 +11,11 @@ echo "asd" | sudo -S docker run -p 5000:5000 -d repo.asd.com:8083/solarpulse-web
 echo "asd" | sudo -S docker ps
 echo "asd" | sudo -S docker push repo.asd.com:8083/solarpulse-web:$1
 
+dockerRMI.sh
+sudo docker images | awk '{print $3}' > ~/logs/shellLogs/dockerId.log
+while IFS='' read -r serviceProp || [[ -n "$serviceProp" ]]; do
+sudo docker rmi -f $serviceProp
+done < ~/logs/shellLogs/dockerId.log
 
+
+docker run --restart always --name Mongo -p 0.0.0.0:30131:27017 -v dump:/home/root/dump/  -e MONGO_INITDB_ROOT_USERNAME=asd -e MONGO_INITDB_ROOT_PASSWORD=asd -m 500m -d mongo:3.2
