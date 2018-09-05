@@ -19,3 +19,24 @@
 
 ## Start MongoDB docker container with authentication and port set to non default port
     docker run --restart always --name Mongo -p 0.0.0.0:12345:27017 -v dump:/home/root/dump/  -e MONGO_INITDB_ROOT_USERNAME=asd -e MONGO_INITDB_ROOT_PASSWORD=asd -m 500m -d mongo:3.2
+
+## Example dockerfile for a node app with port 5000 exposed
+    FROM node:carbon
+
+    # Create app directory
+    WORKDIR /usr/src/app
+
+    # Install app dependencies
+    # A wildcard is used to ensure both package.json AND package-lock.json are copied
+    # where available (npm@5+)
+    COPY package*.json ./
+
+    RUN npm install
+    # If you are building your code for production
+    # RUN npm install --only=production
+
+    # Bundle app source
+    COPY . .
+
+    EXPOSE 8080
+    CMD [ "nodejs", "app.js" , "pstg" ]
