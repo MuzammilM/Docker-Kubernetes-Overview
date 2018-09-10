@@ -59,18 +59,21 @@
 
 >To use the redis server , replace localhost with Docker container name within the code.
 
------------------------------------------------------------------------------------
 	docker run myimage ---> docker-compose up											
 																					
-To include the latest changes.															
+>To include the latest changes.	
+
+
 	docker build .																
 	docker run myimage          |--------------> docker-compose up --Build	
 	
------------------------------------------------------------------------------------
 
 
-Run docker-compose in the background
-    docker-compose up -d
-To stop
-    docker-compose down
+>Run docker-compose in the background
+
+	docker-compose up -d
+	
+>To stop
+
+	docker-compose down
 
