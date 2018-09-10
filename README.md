@@ -40,3 +40,36 @@
 
     EXPOSE 8080
     CMD [ "nodejs", "app.js" , "pstg" ]
+
+# To run a container in the background use
+	docker run -d redis
+    
+# docker-compose.yml
+
+
+version: '3'								--> always include
+services: 									--> for the various docker containers
+ redis-server:								--> Name given to docker container
+  image:'muzammilmomin/redis'				--> Image to be used
+ node-app:									--> Second docker container
+  build: .									--> Build from current directory
+  ports:									--> Port mapping for this docker container
+   - "4001:8081"							
+
+
+>To use the redis server , replace localhost with Docker container name within the code.
+
+-----------------------------------------------------------------------------------
+>docker run myimage ---> docker-compose up											|
+																					|
+To include the latest changes.														|	
+>	docker build .				|													|
+>	docker run myimage          |--------------> docker-compose up --Build			|
+-----------------------------------------------------------------------------------
+
+
+Run docker-compose in the background
+    docker-compose up -d
+To stop
+    docker-compose down
+
