@@ -1,0 +1,61 @@
+docker-compose
+
+version: '3'
+services:
+ web:
+  build: 
+   context: .					
+   (Where we want all the files to be pulled from)
+   dockerfile: Dockerfile.dev
+  ports:
+   - "3000:3000"
+  volumes:
+   - /app/node_modules
+   - .:/app
+
+
+   >Volumes can be useful for configuration files.
+   Why COPY when volumes can be used?
+   >This needs to be used to copy all the source code when deploying to production environments.
+   >Volumes are applicable when files need to be changed dynamically.
+
+   When there are test cases that need to be executed we can run the commands as
+   docker run <containerid> <test command>
+   Example:
+   docker run <containerid> npm run test
+
+   Docker compose for running tests.
+   	>Start the docker-compose up
+   	>docker exec -it <`container id`> npm run test
+
+   	(Alternate)
+
+   	>Create a test service to monitor tests; however commands cannot be entered.
+
+Docker file with multiple FROM
+
+	Build phase
+		Use node:alpine
+		Copy package.json file
+		Install dependencies
+		Run npm run build
+
+	Run Phase
+		Use nginx
+		Copy the result of npm run build
+		Start nginx
+
+
+	Build Phase:
+
+	FROM node:alpine as builder
+		>Everything below this is tagged as builder
+
+
+	Run phase
+
+	FROM nginx
+		>Terminates previous container.
+	COPY --from=builder /app/build /usr/share/nginx/html
+		>--from=builder is the previous containers name.
+		>Copy the build to /usr/share/nginx/html
