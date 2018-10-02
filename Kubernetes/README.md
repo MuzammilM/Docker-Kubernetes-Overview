@@ -131,4 +131,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 
 ### Deployment Configuration file breakdown
 
-* replicas: The number of pods that should be
+* replicas: The number of pods that should be c
