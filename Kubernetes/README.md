@@ -130,3 +130,5 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * Deployments will create the necessary pods.
 
 ### Deployment Configuration file breakdown
+
+*
