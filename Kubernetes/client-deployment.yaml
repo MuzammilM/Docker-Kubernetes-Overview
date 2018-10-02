@@ -8,3 +8,4 @@ spec:
     matchLabels:
       component: web
   template:
+    
