@@ -9,4 +9,5 @@ spec:
       component: web
   template:
     metadata:
-      
+      labels:
+        
