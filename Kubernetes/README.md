@@ -132,4 +132,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 ### Deployment Configuration file breakdown
 
 * replicas: The number of pods that should be created.
-* selector: The file tells the master to create a pod and the deployment then looks out for component: web
+* selector: The file tells the master to create a pod and the deployment then looks out for component: web.
