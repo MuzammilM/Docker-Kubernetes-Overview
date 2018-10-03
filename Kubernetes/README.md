@@ -131,7 +131,7 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 
 ### Deployment Configuration file breakdown
 
-* replicas: The number of pods that should be created.
+* spec: replicas: The number of pods that should be created.
 * spec: selector: (for global specifications)The file tells the master to create a pod and the deployment then looks out for component: web.
 * template: Every pod that is created will use template section as a skeleton to base the pods upon.
 
