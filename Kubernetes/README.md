@@ -135,5 +135,6 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * selector: The file tells the master to create a pod and the deployment then looks out for component: web.
 * template: Every pod that is created will have the label component: web.p
 
+`kubectl describe pods`
 
 `kubectl get deployments`
