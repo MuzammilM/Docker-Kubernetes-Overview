@@ -134,7 +134,7 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * replicas: The number of pods that should be created.
 * selector: The file tells the master to create a pod and the deployment then looks out for component: web.
 * template: Every pod that is created will have the label component: web.p
-
+template section is used as a skeleton to base the pods upon
 `kubectl describe pods`
 
 `kubectl get deployments`
