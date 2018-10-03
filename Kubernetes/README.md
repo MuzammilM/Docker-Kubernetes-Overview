@@ -136,6 +136,6 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * template: Every pod that is created will use template section as a skeleton to base the pods upon.
 
 `kubectl get deployments`
-* Prints info about the deployment "pods"
+* Prints info about the deployment "pods".
 `kubectl describe pods`
 * Prints the actual number of pods and status of each pod.
