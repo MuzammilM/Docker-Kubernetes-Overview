@@ -139,3 +139,9 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * Prints info about the deployment "pods".
 `kubectl describe pods`
 * Prints the actual number of pods and status of each pod.
+
+### Updating a kubernetes cluster
+* Commit updated code to git.
+* Build code (using travis).
+* Push the new image to docker repo.
+* Tell the deployment to recreate our pods with the latest version of the docker image.
