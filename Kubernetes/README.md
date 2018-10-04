@@ -147,4 +147,9 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * Tell the deployment to recreate our pods with the latest version of the docker image.
 
 
-Run an imperative 
+`kubectl set image <object_type>/<object_name> <container_name> = <newimagetouse>`
+* set : We want to change a property.
+* image : We want to change the image property.
+* <object_type> : type of object.
+* <object_name> : Name of the object.
+* <container name> : Name of the container we are updating.
