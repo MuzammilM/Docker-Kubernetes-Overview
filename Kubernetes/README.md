@@ -145,3 +145,6 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * Build code (using travis).
 * Push the new image to docker repo.
 * Tell the deployment to recreate our pods with the latest version of the docker image.
+
+
+Run an imperative 
