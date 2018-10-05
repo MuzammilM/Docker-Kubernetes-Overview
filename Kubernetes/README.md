@@ -155,4 +155,7 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * <container name> : Name of the container we are updating.
 
 
-kubectl set image Deployment/client-deployment client=muzammilmomin/multi-client:v5
+`kubectl set image Deployment/client-deployment client=muzammilmomin/multi-client:v5`
+
+`eval $(minikube docker-env)`
+* Reconfigures current terminal window to use 
