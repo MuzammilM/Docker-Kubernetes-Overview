@@ -163,5 +163,5 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 `kubectl logs $(kubectl get pods | grep "client-deployment" | awk '{print $1}' | tail -n 1)`
 * Get logs from a specific container
 
-### ClusterIP
+## ClusterIP
 * Exposes a set of pods to other objects in the cluster.
