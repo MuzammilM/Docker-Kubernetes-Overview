@@ -166,3 +166,7 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 ## ClusterIP
 * Exposes a set of pods to other objects in the cluster.
 * Cannot access it from outside the cluster.
+* ports: 
+	*port: 
+	*targetPort: 
+	* To gain access to port 3000 inside the container youre going to get at port 3000 on the service container.
