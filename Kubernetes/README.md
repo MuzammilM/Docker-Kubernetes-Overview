@@ -158,4 +158,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 `kubectl set image Deployment/client-deployment client=muzammilmomin/multi-client:v5`
 
 `eval $(minikube docker-env)`
-* Reconfigures current terminal window to use 
+* Reconfigures current terminal window docker client to use minikubes docker server.
