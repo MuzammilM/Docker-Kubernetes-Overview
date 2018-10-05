@@ -5,4 +5,5 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    match
+    component: web
+    
