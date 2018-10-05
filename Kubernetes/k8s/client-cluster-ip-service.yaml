@@ -7,4 +7,4 @@ spec:
   selector:
     component: web
   ports:
-    - 
+    - port: 3000
