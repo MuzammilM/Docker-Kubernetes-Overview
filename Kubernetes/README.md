@@ -168,5 +168,5 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * Cannot access it from outside the cluster.
 * ports: 
 	* port: 
-	*targetPort: 
+	* targetPort: 
 	* To gain access to port 3000 inside the container youre going to get at port 3000 on the service container.
