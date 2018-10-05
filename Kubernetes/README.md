@@ -160,6 +160,5 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 `eval $(minikube docker-env)`
 * Reconfigures current terminal window docker client to use minikubes docker server.
 
-
-`kubectl logs client-deployment-58d959cb75-r29hn`
+`kubectl logs $(kubectl get pods | grep "client-deployment" | awk '{print $1}' | tail -n 1)`
 * Get logs from a specific container
