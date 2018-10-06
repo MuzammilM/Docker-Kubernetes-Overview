@@ -19,7 +19,7 @@
 
 Persistant volume claim
 
-Should anything happen to the pod , a new pod will be created to replace the existing defective one ; thus deleting all the data stored within the pod. We therefore map the volume of the container to a volume on the host machine.
+Should anything happen to the pod , a new pod will be created to replace the existing defective one ; thus deleting all the data stored within the old pod. We therefore map the volume of the container to a volume on the host machine.
 ![PVC diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/PostgresPVC.PNG)
 
 `kubectl apply -f k8s/`
