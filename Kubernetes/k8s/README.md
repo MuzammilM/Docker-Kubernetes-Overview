@@ -1,4 +1,4 @@
-# Test application based on 
+# Test application based on kb
 Traffic -> Ingress Service -> ClusterIP Service - Deployment - 	
                               *multi-client pod *multi-client pod *multi-client pod
         				   -> ClusterIP Service - Deployment - *multi-server pod^ *multi-server pod *multi-server pod
