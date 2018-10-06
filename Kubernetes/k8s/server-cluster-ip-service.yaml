@@ -4,4 +4,4 @@ metadata:
   name: server-cluster-ip-service
 spec:
   type: ClusterIP
-  selector
+  selector:
