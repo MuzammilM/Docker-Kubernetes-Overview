@@ -1,6 +1,9 @@
 # Test application based on kubernetes
 
 ## Overview of cluster application
+
+![Workflow Diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/Workflow.PNG)
+
 Traffic -> Ingress Service -> ClusterIP Service - Deployment - 	
                               *multi-client pod *multi-client pod *multi-client pod
         				   -> ClusterIP Service - Deployment - *multi-server pod^ *multi-server pod *multi-server pod
