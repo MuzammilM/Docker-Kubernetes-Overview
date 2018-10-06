@@ -13,4 +13,6 @@ spec:
         component: server
     spec:
       containers:
-       stephengrider/multi-server
+       - name: server
+         image: 
+        stephengrider/multi-server
