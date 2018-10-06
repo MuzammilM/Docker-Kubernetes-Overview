@@ -9,4 +9,5 @@ spec:
       component: worker
   template:
     metadata:
-      labe
+      labels:
+        
