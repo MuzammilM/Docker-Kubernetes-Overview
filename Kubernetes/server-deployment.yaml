@@ -11,4 +11,4 @@ spec:
     metadata:
       labels:
         component: server
-    
+    spec:
