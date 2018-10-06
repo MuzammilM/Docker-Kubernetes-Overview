@@ -7,4 +7,7 @@ spec:
   selector:
     matchLabels:
       component: redis
-      
+  template:
+    metadata:
+      labels:
+        component: redis
