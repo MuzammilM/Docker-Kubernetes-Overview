@@ -5,3 +5,6 @@ metadata:
 spec:
   replicas: 1
   selector:
+    matchLabels:
+      component: redis
+      
