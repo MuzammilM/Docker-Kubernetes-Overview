@@ -1,6 +1,15 @@
 # Test application based on kubernetes
+
 ## Run it on your own hardware via
+### Install kubectl
+`curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && sudo chmod +x kubectl && sudo mv kubectl /usr/local/sbin/kubectl`
+
+### Install minikube
+`curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.29.0/minikube-linux-amd64 && chmod +x minikube && sudo cp minikube /usr/local/bin/ && rm minikube`
+
+### Start minikube
 `minikube start`
+
 ## Overview of cluster application
 
 ![Workflow Diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/Workflow.PNG)
