@@ -13,4 +13,4 @@ spec:
         component: redis
     spec:
       containers:
-        image: redis
+        - name: redis
