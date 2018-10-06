@@ -13,4 +13,4 @@ spec:
         component: worker
     spec:
       containers:
-        
+        - nam
