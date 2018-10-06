@@ -10,7 +10,7 @@ Traffic -> Ingress Service -> ClusterIP Service - Deployment -
         				  -> Deployment - multi-worker pod
 
 `kubectl apply -f k8s/`
-*
+* Apply all the configurations at once.
 
 Combining multiple configuration files
 * We can combine multiple configuration files into a single file by appending "---" at the end and writing a new configuration file after
