@@ -14,6 +14,9 @@
 
 ![Workflow Diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/Workflow.PNG)
 
+
+Postgres PVC
+Postgres volume claim
 `kubectl apply -f k8s/`
 
 * Applies all configuration files present within this folder.
