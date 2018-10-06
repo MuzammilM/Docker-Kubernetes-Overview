@@ -1,5 +1,6 @@
 # Test application based on kubernetes
-
+## Run it on your own hardware via
+`minikube start`
 ## Overview of cluster application
 
 ![Workflow Diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/Workflow.PNG)
