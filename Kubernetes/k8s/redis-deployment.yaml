@@ -11,3 +11,4 @@ spec:
     metadata:
       labels:
         component: redis
+    
