@@ -12,4 +12,5 @@ spec:
       labels:
         component: server
     spec:
-      containers: stephengrider/multi-server
+      containers:
+       stephengrider/multi-server
