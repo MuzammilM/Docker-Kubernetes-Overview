@@ -6,4 +6,5 @@ spec:
   type: ClusterIP
   selector:
     component: postgres
-    
+  ports:
+    - port: 5432
