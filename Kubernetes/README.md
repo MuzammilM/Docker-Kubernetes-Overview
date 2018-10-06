@@ -173,4 +173,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 
 
 ## Volume
-
+* An object that allows a container to store data at the pod level.
