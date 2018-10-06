@@ -18,6 +18,7 @@
 Postgres PVC
 Postgres volume claim
 Should anything happen to the pod , the pod is created ; thus deleting all the data stored within the pod. We therefore map the volume of the container to a volume on the host machine.
+
 `kubectl apply -f k8s/`
 
 * Applies all configuration files present within this folder.
