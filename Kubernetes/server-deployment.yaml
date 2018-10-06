@@ -7,4 +7,7 @@ spec:
   selector:
     matchLabels:
       component: server
-te
+  template:
+    metadata:
+      labels:
+        component: server
