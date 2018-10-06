@@ -169,4 +169,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * ports: 
 	* port: 
 	* targetPort: 
-	* To gain access to port 3000 inside the container youre going to get at port 3000 on the service container.
+	* To gain access to port 3000 inside the container(targetPort) youre going to get at port 3000 on the service container(port).
