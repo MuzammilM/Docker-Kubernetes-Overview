@@ -7,4 +7,5 @@ spec:
   selector: 
     component: server
   ports:
-    - port: 
+    - port: 5000
+      targetPorts: 5000
