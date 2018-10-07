@@ -23,7 +23,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 ![PVC diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/PostgresPVC.PNG)
 
 * Persistent Volume Claim : A "billboard" of sorts that informs the config the various storage options that are available.
-* PV : The statically provisioned volume; the "warehouse" with all the storage. If the requirements cannot be met , the storage is dynamically allocated.
+* Persistent Vol: The statically provisioned volume; the "warehouse" with all the storage. If the requirements cannot be met , the storage is dynamically allocated.
 
 
 `kubectl apply -f k8s/`
