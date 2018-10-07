@@ -4,4 +4,4 @@ metadata:
   name: database-persistent-volume-claim
 spec:
   accessModes:
-    - ReadWriteO
+    - ReadWriteOnce
