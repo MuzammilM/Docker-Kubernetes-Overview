@@ -30,6 +30,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 	* ReadOnlyMany : Multiple nodes can read from this.
 	* ReadWriteMany : Multiple nodes can read and write from this.
 
+`kubectl get storageclass`
 
 `kubectl apply -f k8s/`
 
