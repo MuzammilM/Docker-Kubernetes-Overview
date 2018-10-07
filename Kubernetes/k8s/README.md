@@ -25,6 +25,11 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 * Persistent Volume Claim : A "billboard" of sorts that informs the config the various storage options that are available.
 * Persistent Volume: The statically provisioned volume; the "warehouse" with all the storage. If the requirements cannot be met , the storage is dynamically allocated.
 
+* AccessMode
+	* ReadWriteOnce : Can be used by a single node.
+	* ReadOnlyMany : Multiple nodes can read from this.
+	* ReadWriteMany : Multiple nodes can read and write from this.
+
 
 `kubectl apply -f k8s/`
 
