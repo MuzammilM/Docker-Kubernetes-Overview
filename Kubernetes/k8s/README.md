@@ -23,6 +23,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 ![PVC diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/PostgresPVC.PNG)
 
 * PVC : A "billboard" of sorts that informs the config the various storage options that are available.
+* PV : 
 
 `kubectl apply -f k8s/`
 
