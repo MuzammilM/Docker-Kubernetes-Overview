@@ -24,6 +24,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 
 * PVC : A "billboard" of sorts that informs the config the various storage options that are available.
 * PV : The statically provisioned volume; the "warehouse" with all the storage. If the requirements cannot be met , the storage is dynamically allocated.
+
 `kubectl apply -f k8s/`
 
 * Applies all configuration files present within this folder.
