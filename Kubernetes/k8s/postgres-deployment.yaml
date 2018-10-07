@@ -12,6 +12,9 @@ spec:
       labels:
         component: postgres
     spec:
+      volumes: 
+        - name: postgres-storage
+        
       containers:
         - name: postgres
           image: postgres
