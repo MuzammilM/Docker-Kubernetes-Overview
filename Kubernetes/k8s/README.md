@@ -32,6 +32,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 
 `kubectl get storageclass`
 
+`kubectl describe storageclass`
 `kubectl apply -f k8s/`
 
 * Applies all configuration files present within this folder.
