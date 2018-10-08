@@ -174,3 +174,6 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 
 ## Volume
 * An object that allows a container to store data at the pod level.
+
+## Secrets
+* An object to securely store a piece of information in the cluster, such as a database password.
