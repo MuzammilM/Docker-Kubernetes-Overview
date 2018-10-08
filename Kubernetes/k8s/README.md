@@ -50,6 +50,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 * We can combine multiple configuration files into a single file by appending "---" at the end and writing a new configuration file after.
 * Check **server-config.yaml** for the example.
 
-
+## Setting ENV variables
+* Host names can be set by using the metadata:name: field in the clusterip service file associated with the service. 
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
