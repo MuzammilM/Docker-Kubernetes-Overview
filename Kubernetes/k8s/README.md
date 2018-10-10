@@ -54,6 +54,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 * Host names can be set by using the metadata:name: field in the clusterip service file associated with the service.
 
 ![PVC diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/IngressNginx.PNG)
+
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
 `
