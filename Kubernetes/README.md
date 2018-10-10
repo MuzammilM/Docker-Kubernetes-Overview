@@ -183,4 +183,5 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 `kubectl create secret generic <secret_name>` 
 
 * create : imperative command to create a new object.
-* secret : type of object we are going to c
+* secret : type of object we are going to create
+g
