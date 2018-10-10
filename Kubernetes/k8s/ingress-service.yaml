@@ -15,4 +15,5 @@ spec:
               servicePort: 3000
           - path: /api/
             backend:
-              serviceName: server-cluster-
+              serviceName: server-cluster-ip-service
+              serv
