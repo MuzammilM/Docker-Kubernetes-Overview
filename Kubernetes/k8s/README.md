@@ -62,7 +62,8 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 Visit 
 https://kubernetes.github.io/ingress-nginx/deploy/
 
-
+nginx.ingress.kubernetes.io/rewrite-target: /
+* Replace /word with /
 for deployment steps.
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
