@@ -15,4 +15,4 @@ spec:
               servicePort: 3000
           - path: /api/
             backend:
-              servic
+              serviceName: 
