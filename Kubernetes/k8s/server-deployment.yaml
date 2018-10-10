@@ -31,4 +31,6 @@ spec:
           - name: PGDATABASE
             value: postgres
           - name: PGPASSWORD
-            value: 
+            valueFrom:
+              secretKeyRef:
+                name: pgpassword 
