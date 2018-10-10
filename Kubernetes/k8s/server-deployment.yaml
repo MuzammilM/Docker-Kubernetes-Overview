@@ -30,3 +30,5 @@ spec:
             value: 5432
           - name: PGDATABASE
             value: postgres
+          - name: PGPASSWORD
+            value: 
