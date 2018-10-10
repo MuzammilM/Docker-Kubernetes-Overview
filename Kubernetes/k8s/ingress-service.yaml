@@ -3,3 +3,4 @@ kind: Ingress
 metadata:
   name: ingress-service
   annotations:
+    kubere
