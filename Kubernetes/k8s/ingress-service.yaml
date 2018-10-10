@@ -3,4 +3,4 @@ kind: Ingress
 metadata:
   name: ingress-service
   annotations:
-    kubere
+    kubernetes.io/ingress.c
