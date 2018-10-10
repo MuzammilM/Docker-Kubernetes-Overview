@@ -186,4 +186,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * secret : type of object we are going to create
 * generic/docker-registry/tls : type of secret
 * <secret_name> : Name of secret for later reference in a pod config.
-* --from-literal : we are going to add the secret inforation into this command as opposed to from . f
+* --from-literal : we are going to add the secret inforation into this command as opposed to from . file.
