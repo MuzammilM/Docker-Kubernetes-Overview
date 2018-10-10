@@ -42,7 +42,7 @@ Important points to remember.
 	* ClusterIp
 	* NodePort: Expose a container to the outside world for viewing ; it should only be used for dev purposes.
 	* LoadBalancer : Legacy way of getting network traffic into a cluster ; only allows access to a single pod.
-	* Ingress : Exposes a set of services to the outside world.
+	* Ingress : Exposes a set of services to the outside world ; can expose multiple pods.
 
 Browser Request <-  kube-proxy -> Service -> Pod
         			  		 
