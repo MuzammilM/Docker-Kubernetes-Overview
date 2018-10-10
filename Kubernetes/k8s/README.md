@@ -57,6 +57,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 
 ![PVC diagram](https://github.com/MuzammilM/Docker-Kubernetes-Overview/blob/master/Kubernetes/k8s/IngressNginx.PNG)
 
+* Ingress Config: Object that has a set of config rules describing how traffic should be routed
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
 `
