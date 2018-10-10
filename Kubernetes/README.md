@@ -187,3 +187,7 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * generic/docker-registry/tls : type of secret ; we use generic for password.
 * <secret_name> : Name of secret for later reference in a pod config ; not the actual "key"
 * --from-literal : we are going to add the secret inforation into this command as opposed to from . file.
+
+
+## Ingress
+Controller that reads a certain set of parameters and pushes it to the appropriate pods.
