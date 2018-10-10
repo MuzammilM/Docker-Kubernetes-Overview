@@ -4,4 +4,4 @@ metadata:
   name: ingress-service
   annotations:
     kubernetes.io/ingress.class: nginx
-    nginx.ingre
+    nginx.ingress.ku
