@@ -177,3 +177,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 
 ## Secrets
 * An object to securely store a piece of information in the cluster, such as a database password.
+* We generally create a config file for objects related to kubernetes. In this case we use an imperative command.
