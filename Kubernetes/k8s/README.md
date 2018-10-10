@@ -52,6 +52,9 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 
 ## Setting ENV variables
 * Host names can be set by using the metadata:name: field in the clusterip service file associated with the service.
- 
+
+test
+
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
+`
