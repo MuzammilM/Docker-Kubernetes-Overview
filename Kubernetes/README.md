@@ -180,7 +180,7 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * We generally create a config file for objects related to kubernetes. In this case we use an imperative command.
 
 ### Creating a secret
-`kubectl create secret generic <secret_name> --f` 
+`kubectl create secret generic <secret_name> --from` 
 
 * create : imperative command to create a new object.
 * secret : type of object we are going to create
