@@ -62,6 +62,7 @@ Should anything happen to the pod , a new pod will be created to replace the exi
 Visit 
 https://kubernetes.github.io/ingress-nginx/deploy/
 
+
 for deployment steps.
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
