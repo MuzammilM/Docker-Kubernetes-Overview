@@ -185,4 +185,4 @@ Except those , youre not allowed to change. Thus the need for "Deployment" kind 
 * create : imperative command to create a new object.
 * secret : type of object we are going to create
 * generic : type of secret
-* <secret_name> : Nam
+* <secret_name> : Name of secret 
