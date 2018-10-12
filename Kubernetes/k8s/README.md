@@ -63,8 +63,8 @@ Visit
 https://kubernetes.github.io/ingress-nginx/deploy/
 
 nginx.ingress.kubernetes.io/rewrite-target: /
-* Replace /word with /
-for deployment steps.
+* Replace /word with / for deployment steps.
+
 # DISCLAIMER
 **Based off of the course created by stephengrider on udemy.**
 `
